@@ -1,3 +1,14 @@
+/**
+ * GLB Analyzer & Compressor
+ * 
+ * - Loads .glb file and shows size in MB
+ * - Detects existing Draco compression
+ * - Applies max Draco compression + saves new file
+ * 
+ * Run: node glb_analyzer.js
+ */
+
+
 const fs = require('fs');
 const gltfPipeline = require('gltf-pipeline');
 
@@ -27,4 +38,5 @@ try {
 
 } catch (err) {
   console.error('Error:', err.message);
+
 }
