@@ -1,0 +1,8 @@
+{
+  "mesh_name": "Sphere",
+  "vertex_count": 610,
+  "face_count": 1152,
+  "materials": [
+    "Material.003"
+  ]
+}
