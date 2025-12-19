@@ -1,3 +1,13 @@
+/**
+ * Pinata IPFS Uploader
+ * 
+ * - Uploads compressed .glb to Pinata
+ * - Prints CID + gateway links
+ * 
+ * Add your Pinata JWT locally (do not commit!)
+ * Run: node upload_ipfs.js
+ */
+
 const fs = require('fs');
 const fetch = require('node-fetch');
 const FormData = require('form-data');  
@@ -32,3 +42,4 @@ const upload = async () => {
 
 
 upload();
+
