@@ -1,3 +1,14 @@
+/**
+ * Full 3D → On-Chain Pipeline
+ * 
+ * One command runs:
+ * 1. Analyze + compress
+ * 2. Extract metadata
+ * 3. Upload to IPFS
+ * 
+ * Run: node index.js
+ */
+
 const fs = require('fs');
 const gltfPipeline = require('gltf-pipeline');
 const fetch = require('node-fetch');
@@ -60,3 +71,4 @@ async function fullPipeline(inputFile) {
 // Run on your file
 
 fullPipeline('portrait.glb');  // ← change to your filename if needed
+
