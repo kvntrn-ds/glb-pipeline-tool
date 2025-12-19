@@ -3,7 +3,7 @@ const gltfPipeline = require('gltf-pipeline');
 const fetch = require('node-fetch');
 const FormData = require('form-data');
 
-const PINATA_JWT = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI3YTZhNzllYS05ZjA0LTRjODgtYWQ5OC1iNmZhNzE1OTA1ZDQiLCJlbWFpbCI6Imt2bnRybnpAaG90bWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJGUkExIn0seyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJOWUMxIn1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiOTJhMGU1ZWJkNzllMDE0ZDMzNDMiLCJzY29wZWRLZXlTZWNyZXQiOiIxYTgxMTAzNGNlNDk3YjdlZjY3MDNlZjA0YTI0MDdjNDE3Yjk1OWYyNGQ0MzI1NDRkNjJkMmE5NzM0MGY4YmUyIiwiZXhwIjoxNzk3NjQ4MTk5fQ.YTr7-22C9EZH3z7w63VZpfZwFjzAztb_4VLQ2z5lTNQ ';  // ← paste your Pinata JWT (keep secret!)
+const PINATA_JWT = ' ';  // ← paste your Pinata JWT (keep secret!)
 
 async function fullPipeline(inputFile) {
   console.log(`Starting pipeline on ${inputFile}\n`);
@@ -58,4 +58,5 @@ async function fullPipeline(inputFile) {
 }
 
 // Run on your file
+
 fullPipeline('portrait.glb');  // ← change to your filename if needed
