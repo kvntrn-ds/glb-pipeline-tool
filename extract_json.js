@@ -1,3 +1,13 @@
+/**
+ * GLB JSON Extractor
+ * 
+ * - Extracts vertex count, material names, texture info
+ * - Saves full glTF JSON + clean summary.json
+ * 
+ * Run: node extract_json.js
+ */
+
+
 const fs = require('fs');
 const { glbToGltf } = require('gltf-pipeline');
 
@@ -37,4 +47,5 @@ glbToGltf(glbData).then(result => {
   console.log(summary);
 }).catch(err => {
   console.error('Extraction failed:', err);
+
 });
