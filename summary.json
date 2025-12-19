@@ -1,0 +1,13 @@
+{
+  "file": "portrait_compressed.glb",
+  "vertex_count": 610,
+  "materials": [
+    "Material.003",
+    "hair",
+    "Material",
+    "eye pink",
+    "Material.001",
+    "shirt",
+    "background"
+  ]
+}
