@@ -22,3 +22,5 @@ Node.js toolkit for preparing 3D assets for web3 gaming and NFTs
 ```bash
 npm install
 node index.js
+
+https://3dexportpipeline.carrd.co (a website that showcases this script)
